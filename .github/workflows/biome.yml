@@ -14,4 +14,4 @@ jobs:
         with:
           version: latest
       - name: Run Biome Check
-        run: biome check ./src
+        run: biome check ./client/src
